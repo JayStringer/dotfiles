@@ -1,0 +1,4 @@
+Terminator = ~/.config/terminator/config
+Fish = ~/.config/fish/config.fish
+Vim = ~/.vimrc
+Tmux = ~/.tmux.conf
