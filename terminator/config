@@ -1,8 +1,8 @@
 [global_config]
   focus = system
   title_hide_sizetext = True
-  title_transmit_fg_color = "#2e3436"
-  title_transmit_bg_color = "#e9b96e"
+  title_transmit_fg_color = "#1d1d1d"
+  title_transmit_bg_color = "#d59f7c"
   title_receive_bg_color = "#c17d11"
   inactive_color_offset = 0.75
 [keybindings]
@@ -19,11 +19,13 @@
     background_darkness = 0.95
     background_type = transparent
     cursor_color = "#aaaaaa"
+    font = Fira Mono 13
     foreground_color = "#ebdbb2"
     scrollback_infinite = True
-    palette = "#2e3436:#dc322f:#4e9a06:#fcaf3e:#268bd2:#d33682:#2aa198:#d3d7cf:#679bbc:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    palette = "#a1b4b1:#cc241d:#729fcf:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
     login_shell = True
     custom_command = fish
+    use_system_font = False
   [[Jay]]
     background_color = "#282828"
     background_darkness = 0.9
@@ -35,14 +37,23 @@
     custom_command = fish
 [layouts]
   [[default]]
-    [[[child1]]]
-      parent = window0
-      type = Terminal
-      profile = default
-      command = ""
-    [[[window0]]]
-      parent = ""
+    [[[child0]]]
       type = Window
+      parent = ""
+      order = 0
+      position = 0:1112
+      maximised = True
+      fullscreen = False
+      size = 2560, 1378
+      title = fish /home/jay
+      last_active_term = 1b62188c-5667-49d6-b535-08b5c5977671
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 1b62188c-5667-49d6-b535-08b5c5977671
   [[Waffles]]
     [[[child0]]]
       type = Window
