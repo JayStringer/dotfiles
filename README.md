@@ -1,3 +1,9 @@
+Noteworthy:
+To load Tilix settings:
+`dconf load /com/gexperts/Tilix < tilix.dconf`
+To store Tilix settings:
+`dconf dump /com/gexperts/Tilix > tilix.dconf`
+
 ## Vim Cheatsheet
 
 # User Added

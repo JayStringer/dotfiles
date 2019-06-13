@@ -1,0 +1,22 @@
+[/]
+background-image-mode='scale'
+quake-height-percent=90
+quake-hide-headerbar=true
+quake-window-position='top'
+theme-variant='system'
+quake-width-percent=100
+quake-specific-monitor=0
+quake-alignment='center'
+window-style='normal'
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#A7A7A7'
+badge-color-set=false
+cursor-colors-set=false
+bold-color-set=false
+background-transparency-percent=6
+highlight-colors-set=false
+background-color='#1E1E1E'
+palette=['#000000', '#CC0000', '#72729F9FCFCF', '#C3A000', '#4E4E9A9A0606', '#754F7B', '#05979A', '#D3D6CF', '#545652', '#EF2828', '#34346565A4A4', '#FBE84F', '#7373D2D21616', '#AC7EA8', '#34E2E2', '#EDEDEB']
+use-theme-colors=true
+visible-name='Default'
