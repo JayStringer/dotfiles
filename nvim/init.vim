@@ -22,7 +22,7 @@ inoremap <silent> <C-s> <C-O>:update<CR>
 " Appearance
 set number relativenumber " show line numbers
 set termguicolors
-colorscheme horizon 
+colorscheme onehalfdark 
 
 " Tab formatting
 filetype plugin indent on

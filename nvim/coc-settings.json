@@ -1,0 +1,4 @@
+{
+    "python.venvPath": "~/workspace/virtualenvs",
+    "python.jediEnabled": false
+}

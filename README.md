@@ -1,8 +1,8 @@
 Noteworthy:
 To load Tilix settings:
-`dconf load /com/gexperts/Tilix < tilix.dconf`
+`dconf load /com/gexperts/Tilix/ < tilix.dconf`
 To store Tilix settings:
-`dconf dump /com/gexperts/Tilix > tilix.dconf`
+`dconf dump /com/gexperts/Tilix/ > tilix.dconf`
 
 ## Vim Cheatsheet
 
@@ -161,3 +161,16 @@ Use *ctrl+b* to initiate these commands
 
 ## NERDTree Cheatsheet
 F3 = Toggle NERDTree
+
+
+## FZF Cheatsheet
+,e = Search for files
+,g = Search for tags in current finder files
+,G = Search for tags in all files
+,f = General code finder in current finder mapping
+,F = General code finder in all files mapping
+,c = Commands finder mapping
+
+ctrl+x = Open file under cursor as horizontal split
+ctrl-v = Open file under cursor as vertical split
+
